@@ -1,0 +1,64 @@
+var rubilnik;
+
+var a = 3;
+var b = "3";
+
+var computer = {
+
+	monitor: true,
+
+	keyboard: {
+		is: true,
+		color: "red"
+	},
+
+	mouse: {
+		is: false
+		buttons: 8,
+		color: "black"
+	}
+
+}
+
+function turnRubilnikOn(){
+	turn = true;
+}
+
+function turnRubilnikOff(){
+	turn = false; 
+}
+
+function toggleRubilnik(){
+	if(turn==true){
+
+	} else {
+
+	}
+
+}
+
+
+
+
+buttonOn.click(function(){
+	turnRubilnikOn();
+	toggleRubilnik();
+});
+
+buttonOff.click(function(){
+	turnRubilnikOff();
+	toggleRubilnik();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
